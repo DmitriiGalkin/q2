@@ -1,0 +1,23 @@
+{
+  "name": "quantum",
+  "version": "1.0.0",
+  "description": "यज्ञ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriiGalkin/q2.git"
+  },
+  "author": "Dmitrii Galkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitriiGalkin/q2/issues"
+  },
+  "homepage": "https://github.com/DmitriiGalkin/q2#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
