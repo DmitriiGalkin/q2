@@ -1,4 +1,4 @@
-const title = 'React PWA';
+const title = 'React PWA3';
 
 const email = 'auther-email@gmail.com';
 
