@@ -1,11 +1,6 @@
 pipeline {
 
-    agent {
-        docker {
-            image 'node'
-            args '-u root'
-        }
-    }
+    agent any
 
     stages {
         stage('Build') {
@@ -18,6 +13,12 @@ pipeline {
             steps {
                 echo 'Testing...'
                 sh 'npm test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying'
+                npm run start
             }
         }
     }
